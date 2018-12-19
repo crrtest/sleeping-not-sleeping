@@ -1,0 +1,13 @@
+
+  _extends: .github
+
+  branches:
+  - name: master
+    protection:
+      required_pull_request_reviews:
+        dismissal_restrictions:
+          teams:
+            - third-team
+      restrictions:
+        teams:
+          - third-team
